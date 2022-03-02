@@ -1,0 +1,29 @@
+.form_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+}
+.form_header_left{
+    display: flex;
+    align-items: center;
+
+}
+.form_name{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 15px;
+    width: 100%;
+}
+.form_name:focus{
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+.form_header_right{
+
+}
+.form_header_icon{
+    width: 30px;
+    height: 30px;
+}
